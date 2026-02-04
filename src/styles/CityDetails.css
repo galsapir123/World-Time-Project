@@ -71,6 +71,15 @@
   letter-spacing: -0.5px;
 }
 
+.city-details-header h1 .emoji-no-gradient {
+  -webkit-text-fill-color: initial !important;
+  background: none !important;
+  -webkit-background-clip: unset !important;
+  background-clip: unset !important;
+  filter: none !important;
+  display: inline-block !important;
+}
+
 .details-content {
   display: grid;
   grid-template-columns: 1fr;

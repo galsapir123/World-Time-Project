@@ -98,7 +98,7 @@ function CityDetails() {
             </div>
 
             <div className="city-details-header">
-              <h1>{cityName} {getDayNightEmoji(timeData.datetime)}</h1>
+              <h1>{cityName} <span className="emoji-no-gradient">{getDayNightEmoji(timeData.datetime)}</span></h1>
             </div>
 
             <div className="details-content">
